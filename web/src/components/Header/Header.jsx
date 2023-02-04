@@ -1,15 +1,14 @@
 import React from "react"
 import './Header.scss'
 
+import LogoNetflix from '../../assets/netflix.png'
+
 export default ({ black }) => {
-
-
-
     return(
         <header className={black ? 'header' : ''}>
             <div className="header--logo">
                 <a href="/">
-                    <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"/>
+                    <img src={LogoNetflix}/>
                 </a>
             </div>
             <div className="header--user">
